@@ -55,7 +55,7 @@ class _WebsiteState extends State<Website> {
           child: Stack(
             children: [
               Image.asset(
-                "assets/background.png",
+                "background.png",
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
                 fit: BoxFit.fill,
