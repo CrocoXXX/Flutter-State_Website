@@ -55,7 +55,7 @@ class _WebsiteState extends State<Website> {
           child: Stack(
             children: [
               Image.asset(
-                "images/background.png",
+                "background.png",
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height,
                 fit: BoxFit.fill,
@@ -73,7 +73,7 @@ class _WebsiteState extends State<Website> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Image.asset(
-                          "images/logo.png",
+                          "logo.png",
                           width: 70,
                           height: 40,
                         ),
@@ -98,7 +98,7 @@ class _WebsiteState extends State<Website> {
                           ],
                         ),
                         Image.asset(
-                          "images/button.png",
+                          "button.png",
                           width: 163,
                           height: 53,
                         ),
@@ -109,7 +109,7 @@ class _WebsiteState extends State<Website> {
                       height: 76,
                     ),
                     Image.asset(
-                      "images/illustration.png",
+                      "illustration.png",
                       width: 550,
                       // width: 763,
                       // height: 550,
@@ -123,7 +123,7 @@ class _WebsiteState extends State<Website> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          "images/icon_scroll.png",
+                          "icon_scroll.png",
                           width: 24,
                           height: 24,
                         ),
